@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.home{
+    /* 
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+     */
+    color: #DAD5D5;
+	font-size: 30px;
+	line-height: 60px;
+	padding: 15px 20px;
+}
+
+a{
+    color: red;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(14, 14, 87);
+    width: 100%;
+}
+nav ul {
+    margin-right: 10px;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+	line-height: 60px;
+    list-style: none;
+    margin-right: 5px;
+}
+nav ul li :hover{
+    color: white;
+    background-color: black;
+    animation: alternate;
+    transition: 0.25s;
+}
+nav ul li a{
+    color: darkblue;
+    background-color: cyan;
+    padding: 10px 7px;
+}
+
+
+.page1 {
+    background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.page11{
+	padding-top: 10%;
+	width: 100%;
+	color: aqua;
+	text-align: center;
+    font-size: 40px;
+}
+
+.page111{
+    margin-top: 10px;
+    width: 100%;
+    list-style: none;
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.page111 h2{
+    color: aqua;
+}
+
+.distance{
+    height: 60px;
+}
+
+.container{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    border: solid darkblue;
+    background-color: azure;
+}
+.left{
+    padding-right: 45%;
+}
+.right{
+    padding-left: 45%;
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.padding{
+    background-color: aqua;
+}
+
+.center{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.ull li{
+    list-style: none;
+    float: left;
+    width: 25%;
+}
+.copyright{
+    text-align: center;
+    width: 100%;
+    color: #DAD5D5;
+    background-color: rgb(14, 14, 87);
+}
+
+.background{
+    padding: 10px;
+    background-color: lightblue;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    /* padding-right: 10px; */
+}
